@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="csscontact.css">
+</head>
+<body>
+    <center>
+    <h1 align="center">-- Contact Us--</h1>
+    <form action="response.php" method="post">
+        <b>Name:</b>
+        <input type="text" id="name" name="name" placeholder="--name--" required><br><br>
+       
+        <b>Email:</b>
+        <input type="email"  placeholder="--email--"required><br><br>
+        <b>Contact No:</b>
+        <input type="tel"  placeholder="+00 12345-6789"required><br><br>
+       
+        <b>Issue:</b>
+        <select>
+            <option value="4">website not loading</option>
+            <option value="3">Login issue</option>
+            <option value="2">Error in feild</option>
+            <option value="1">Others</option>
+        </select><br><br>
+        <b> Other Issue in breif:</b><br>
+        <textarea id="feedback" name="feedback" rows="10" cols="40" placeholder="--Mention here--" required></textarea><br><br>
+        <input type="submit" value="Submit here"><br><br>
+        <input type="reset" value="Reset"><br><br>
+    </form>
+</center>
+</body>
+</html>
+
+
