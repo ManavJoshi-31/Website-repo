@@ -83,7 +83,7 @@ th {
     background-color: rgb(3, 17, 17);
     color: white;
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     ul {
         flex-direction: column;
         align-items: center;
