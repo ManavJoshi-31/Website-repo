@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    background-color: #000000;
+    color: white; /* Set default text color to white */
+}
+
+/* Navigation bar */
+.navbar {
+    height: 100px;
+    background-color: #14213D;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.nav-items {
+    margin-top: 39px;
+}
+.nav-items a {
+    text-decoration: none;
+    padding: 20px;
+    color: #ffc900;
+}
+.nav-items a:hover {
+    color: white;
+    background-color: #FCA311;
+    border-radius: 10px;
+}
+.logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+/* Title Section */
+.title h1 {
+    color: #ffc900;
+    text-align: center;
+    margin-top: 25px;
+}
+.title hr {
+    margin-top: 10px;
+}
+
+/* Theories Section */
+.theories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 30px;
+}
+
+/* Individual Theory */
+.theory {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Image Wrapper */
+.image-wrapper {
+    width: 80%;
+    border: 10px solid white; /* Adding the big white border */
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+/* Image Styling */
+.theory img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.theory img:hover {
+    transform: scale(1.05);
+}
+
+/* Text Styling */
+.theory-text {
+    color: white; /* Set text color to white */
+    text-align: center;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.theory-text h2 {
+    font-size: 18px;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* Zigzag Layout */
+.theory.left {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.theory.right {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.theory.left .theory-text {
+    margin-left: 30px;
+}
+
+.theory.right .theory-text {
+    margin-right: 30px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #14213D;
+    color: #ffc900;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.instagram, .combine {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .theory {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .theory img {
+        width: 100%;
+    }
+
+    .theory-text {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}

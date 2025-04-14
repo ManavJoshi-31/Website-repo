@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: #000000;
+}
+/* Navigation bar + image */
+.navbar{
+    height: 100px;
+    width: auto;
+    background-color: #14213D;
+    display: flex;
+}
+.nav-items{
+   margin-left: 60%;
+   margin-top: 39px;
+}
+.nav-items a{
+    text-decoration: none;
+    padding: 20px;
+    color: #ffc900;
+}
+.nav-items a:hover{
+    color: white;
+    background-color: #FCA311;
+    border-radius: 10px;
+}
+.logo img{
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+/* Main Content Logos */
+
+.title h1{
+    color: #ffc900;
+    text-align: center;
+    margin-top: 25px;
+}
+.big-cointainer{
+    margin-top: 50px;
+}
+.big-cont1{
+    display: flex;
+}
+.content1{
+    height: 425px;
+    width: 350px;
+    background-color: beige;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+.content1 img{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    border-radius: 20px;
+}
+.content1 img:hover{
+    height: 310px;
+    width: 310px;
+    border-radius: 20px;
+    margin: 20px;
+    transition-duration: 0.5s;
+}
+#btn{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(13, 142, 19);
+    color: white;
+    font-size: medium;
+    border: 3px solid rgb(13, 142, 19);
+    border-radius: 25px;
+}
+#btn:hover{
+    background-color: white;
+    color: rgb(13, 142, 19);
+}
+.content2{
+    height: 425px;
+    width: 350px;
+    background-color: beige;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.content2 img{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    border-radius: 20px;
+}
+.content2 img:hover{
+    height: 310px;
+    width: 310px;
+    border-radius: 20px;
+    margin: 20px;
+    transition-duration: 0.5s;
+}
+.big-cont2{
+    display: flex;
+}
+#adj1{
+    margin-left: 350px;
+    margin-top: 25px;
+}
+#adj2{
+    margin-top: 25px;
+}
+
+/* Footer section */
+.footer{
+    height: auto;
+    width: auto;
+    background-color: #14213D;
+    margin-top: 100px;
+}
+.footer p{
+    color: #ffc900;
+    justify-self: center;
+    margin-top: 20px;
+    padding: 18px;
+}
+.icons{
+    display: flex;  
+
+}
+.instagram{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    padding-left: 610px;
+}
+.combine{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
