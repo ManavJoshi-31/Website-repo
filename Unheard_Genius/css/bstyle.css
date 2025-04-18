@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    color: white;
+}
+
+.main-cont {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main-content"
+        "footer";
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.navbar{
+    background-color: #14213D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.nav-items{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.nav-items a{
+    text-decoration: none;
+    padding: 10px;
+    color: #ffc900;
+}
+.nav-items a:hover{
+    color: white;
+    background-color: #FCA311;
+    border-radius: 10px;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.main-content {
+    grid-area: main-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 30px 10px;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 1000px;
+    background-color: beige;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+    color: black;
+}
+
+.img1 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    display: block;
+    margin: auto;
+}
+.img1 img:hover {
+    height: 310px;
+    width: 310px;
+}
+
+.title h2 {
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #14213D;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    color: #ffc900;
+    margin-top: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.instagram, .combine {
+    height: 40px;
+    width: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .img1 img {
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .img1 img:hover {
+        width: 95%;
+    }
+    .title h2 {
+        font-size: 1.1rem;
+    }
+    .nav-items {
+        justify-content: center;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+}

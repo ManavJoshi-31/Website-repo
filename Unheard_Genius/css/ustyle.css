@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+
+/* Navigation bar + image */
+.navbar{
+    height: 150px;
+    width: 100%;
+    background-color: #14213D;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.nav-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.nav-items a{
+    text-decoration: none;
+    padding: 10px;
+    color: #ffc900;
+}
+.nav-items a:hover{
+    color: white;
+    background-color: #FCA311;
+    border-radius: 10px;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+/* Content Grid for Untold Theories */
+.title h1{
+    color: #ffc900;
+    text-align: center;
+    margin-top: 25px;
+}
+.big-cointainer {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.big-cont1,
+.big-cont2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.content1,
+.content2 {
+    background-color: beige;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content1 img,
+.content2 img {
+    height: 300px;
+    width: 300px;
+    margin: 25px auto;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    display: block;
+}
+.content1 img:hover,
+.content2 img:hover {
+    height: 310px;
+    width: 310px;
+    margin: 20px auto;
+}
+#btn{
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(13, 142, 19);
+    color: white;
+    font-size: medium;
+    border: 3px solid rgb(13, 142, 19);
+    border-radius: 25px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: white;
+    color: rgb(13, 142, 19);
+}
+
+/* Footer section */
+.footer{
+    width: 100%;
+    background-color: #14213D;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+.footer p{
+    color: #ffc900;
+    text-align: center;
+    margin-top: 20px;
+    padding: 18px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 20px;
+}
+.instagram, .combine{
+    height: 40px;
+    width: 40px;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 1024px) {
+    .big-cont1,
+    .big-cont2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content1,
+    .content2 {
+        width: 90%;
+    }
+
+    .content1 img,
+    .content2 img {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .content1 img:hover,
+    .content2 img:hover {
+        width: 95%;
+        margin: 15px auto;
+    }
+}

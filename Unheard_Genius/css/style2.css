@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    background-color: #000000;
+}
+/* Navigation Bar + image */
+.navbar{
+    height: 100px;
+    width: auto;
+    background-color: #14213D;
+    display: flex;
+}
+.nav-items{
+   margin-left: 60%;
+   margin-top: 39px;
+}
+.nav-items a{
+    text-decoration: none;
+    padding: 20px;
+    color: #ffc900;
+}
+.nav-items a:hover{
+    color: white;
+    background-color: #FCA311;
+    border-radius: 10px;
+}
+.logo img{
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+/* Main form Part */
+form{
+    width: 450px;
+    background-color: #6A9C89;
+    border-radius: 20px;
+    text-align: left;
+    margin: auto;
+    padding: 50px;
+    color: #C1D8C3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 75px;
+}
+#bsty{
+    font-size: xx-large;
+    color: beige;
+}
+.bst {
+    font-size: large;
+    color: beige;
+}
+.i-style {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#r-button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(188, 78, 19);
+    color: white;
+    font-family: Bahnschrift SemiBold;
+    font-size: large;
+}
+#r-button:hover{
+    border: 2px solid rgb(188, 78, 19);
+    background-color: white;
+    color: rgb(188, 78, 19);
+}
+#s-button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(1, 103, 59);
+    color: white;
+    font-family: Bahnschrift SemiBold;
+    font-size: large;
+}
+#s-button:hover{
+   border: 2px solid rgb(5, 168, 98);
+   background-color: white;
+   color: rgb(5, 168, 98);
+}
+.t_style{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* Footer section */
+.footer{
+    height: auto;
+    width: auto;
+    background-color: #14213D;
+    margin-top: 100px;
+}
+.footer p{
+    color: #ffc900;
+    justify-self: center;
+    margin-top: 20px;
+    padding: 18px;
+}
+.icons{
+    display: flex;  
+
+}
+.instagram{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    padding-left: 610px;
+}
+.combine{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
