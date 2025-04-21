@@ -1,0 +1,63 @@
+/* General Body and Font Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Styling for Theory Cards */
+.theory {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    transition: transform 0.3s ease;
+}
+
+.theory:hover {
+    transform: scale(1.05);
+}
+
+/* Theory Title */
+.theory h3 {
+    font-size: 1.8em;
+    color: #2a2a2a;
+    margin-bottom: 10px;
+}
+
+/* Theory Description */
+.theory p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Author and Date Information */
+.theory p strong {
+    color: #333;
+}
+
+/* Styling for Theory Content */
+.theory .content {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .theory {
+        width: 90%;
+    }
+}
